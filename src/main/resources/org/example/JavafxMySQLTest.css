@@ -1,0 +1,221 @@
+#reset
+{
+-fx-background-color: lightcoral;
+-fx-background-radius: 20;
+-fx-border-color: black;
+-fx-border-radius: 20;
+-fx-font-weight: bold;
+-fx-font-size: 15;
+}
+
+#LoginNameLabel
+{
+-fx-font-weight: bold;
+}
+
+#LoginPassLabel
+{
+-fx-font-weight: bold;
+}
+
+#LoginButton
+{
+-fx-background-color: skyblue;
+-fx-background-radius: 12;
+-fx-border-color: black;
+-fx-border-radius: 12;
+-fx-font-weight: bold;
+-fx-font-size: 18;
+}
+
+#FPass
+{
+-fx-background-color: lightcoral;
+-fx-background-radius: 15;
+-fx-border-color: black;
+-fx-border-radius: 15;
+-fx-font-weight: bold;
+}
+
+#LoginTitle
+{
+-fx-font-weight: bold;
+}
+#RPCurP
+{
+-fx-font-weight: bold;
+}
+#RPNewP
+{
+-fx-font-weight: bold;
+}
+#RPConP
+{
+-fx-font-weight: bold;
+}
+#confirmbutton
+{
+-fx-background-color: royalblue;
+-fx-background-radius: 40;
+-fx-border-color: black;
+-fx-border-radius: 40;
+-fx-font-weight: bold;
+-fx-font-size: 18;
+-fx-text-fill: white;
+}
+
+#AnchorPanePI
+{
+-fx-background-color: gainsboro;
+}
+#AnchorPaneCourse
+{
+-fx-background-color: gainsboro;
+}
+#AnchorPaneGrade
+{
+-fx-background-color: gainsboro;
+}
+#GoBack
+{
+-fx-background-color: black;
+-fx-background-radius: 12;
+-fx-border-color: white;
+-fx-border-radius: 12;
+-fx-font-weight: bold;
+-fx-font-size: 12;
+-fx-text-fill: gold;
+}
+
+#personal
+{
+-fx-background-color: maroon;
+-fx-background-radius: 12;
+-fx-border-color: azure;
+-fx-border-radius: 12;
+-fx-font-weight: bold;
+-fx-font-size: 18;
+-fx-text-fill: white;
+}
+#personal: focused
+{
+-fx-background-color: lightsalmon;
+-fx-text-fill: maroon;
+}
+#registered
+{
+-fx-background-color: maroon;
+-fx-background-radius: 12;
+-fx-border-color: azure;
+-fx-border-radius: 12;
+-fx-font-weight: bold;
+-fx-font-size: 18;
+-fx-text-fill: white;
+}
+#registered: focused
+{
+-fx-background-color: lightsalmon;
+-fx-text-fill: maroon;
+}
+#grades
+{
+-fx-background-color: maroon;
+-fx-background-radius: 12;
+-fx-border-color: azure;
+-fx-border-radius: 12;
+-fx-font-weight: bold;
+-fx-font-size: 18;
+-fx-text-fill: white;
+}
+#grades: focused
+{
+-fx-background-color: lightsalmon;
+-fx-text-fill: maroon;
+}
+
+#splitlabel
+{
+-fx-background-color: maroon;
+}
+.choice-box
+{
+  -fx-background-color: darkred;
+  -fx-mark-color: gold;
+}
+.choice-box > .label
+{
+-fx-text-fill: white;
+}
+.choice-box .context-menu
+{
+    -fx-pref-width: 102;
+}
+.choice-box .menu-item:focused
+{
+-fx-background-color: firebrick;
+}
+.choice-box .menu-item > .label
+{
+-fx-text-fill: gold;
+}
+#ChooseSem
+{
+-fx-font-weight: bold;
+}
+#ID
+{
+-fx-font-weight: bold;
+}
+#GradeID
+{
+-fx-font-weight: bold;
+}
+#GradeName
+{
+-fx-font-weight: bold;
+}
+#GradeDepartment
+{
+-fx-font-weight: bold;
+}
+#GradeProgram
+{
+-fx-font-weight: bold;
+}
+#GradeSem
+{
+-fx-font-weight: bold;
+}
+#PIName
+{
+-fx-font-weight: bold;
+}
+#PIID
+{
+-fx-font-weight: bold;
+}
+#PIDepartment
+{
+-fx-font-weight: bold;
+}
+#PIProgram
+{
+-fx-font-weight: bold;
+}
+#PIAY
+{
+-fx-font-weight: bold;
+}
+#PICN
+{
+-fx-font-weight: bold;
+}
+#PIEmail
+{
+-fx-font-weight: bold;
+}
+
+.root
+{
+-fx-background-color: ivory;
+}

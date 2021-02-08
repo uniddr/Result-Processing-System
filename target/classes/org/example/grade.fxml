@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPaneGrade" fx:id="gradeAnchorpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="572.0" prefWidth="900.0" stylesheets="@JavafxMySQLTest.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.PiController">
+    <children>
+        <Label fx:id="GradeName" layoutX="70.0" layoutY="28.0" prefHeight="26.0" prefWidth="55.0" text="Name :">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+        <Label fx:id="name" layoutX="138.0" layoutY="30.0" prefHeight="22.0" prefWidth="219.0" text="name">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+        <Label fx:id="GradeID" layoutX="70.0" layoutY="66.0" prefHeight="26.0" prefWidth="31.0" text="ID :">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+        <Label fx:id="id" layoutX="111.0" layoutY="68.0" prefHeight="18.0" prefWidth="143.0" text="id">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+        <Label fx:id="GradeDepartment" layoutX="396.0" layoutY="28.0" prefHeight="26.0" prefWidth="102.0" text="Department :">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+        <Label fx:id="dept" layoutX="519.0" layoutY="30.0" text="dept">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+        <Label fx:id="GradeProgram" layoutX="396.0" layoutY="65.0" prefHeight="26.0" prefWidth="76.0" text="Program :">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+        <Label fx:id="prog" layoutX="498.0" layoutY="68.0" prefHeight="18.0" prefWidth="55.0" text="prog">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+        <ChoiceBox fx:id="sem" layoutX="227.0" layoutY="106.0" prefHeight="26.0" prefWidth="102.0" />
+        <Label fx:id="GradeSem" layoutX="70.0" layoutY="106.0" prefHeight="26.0" prefWidth="136.0" text="Choose semester :">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+    </children>
+</AnchorPane>

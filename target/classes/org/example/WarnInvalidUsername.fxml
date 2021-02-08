@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="78.0" prefWidth="394.0" stylesheets="@JavafxMySQLTest.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" layoutX="130.0" layoutY="29.0" prefHeight="19.0" prefWidth="133.0" text="Invalid Username!">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
