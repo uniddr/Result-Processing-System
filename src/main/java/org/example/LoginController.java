@@ -47,7 +47,7 @@ public class LoginController {
     public void LoginButtonHandle(ActionEvent actionEvent) {
         try{
             Connection con=DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/sakila","root","DartrixDDR4L");
+                    "jdbc:mysql://localhost:3306/sakila",db_username,db_password);
             String uid=LoginUID.getText();
             String pwd=LoginPWD.getText();
             Statement stmt=con.createStatement();
