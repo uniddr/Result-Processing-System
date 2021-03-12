@@ -121,7 +121,7 @@ public class LoginController {
         try{
             String name=LoginUID.getText();
             Connection con=DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/sakila","root","DartrixDDR4L");
+                    "jdbc:mysql://localhost:3306/sakila",db_username,db_password);
             Statement stmt=con.createStatement();
             if(name.equals("")) {
                 con.close();
@@ -196,8 +196,8 @@ public class LoginController {
             }
             con.close();
 
-            String username = "hmmwellnvm@gmail.com";
-            String password = "oELp732-";
+            String username = Gmail_sender_address;
+            String password = Gmail_sender_password;
 
             Properties prop = new Properties();
             prop.put("mail.smtp.host", "smtp.gmail.com");
