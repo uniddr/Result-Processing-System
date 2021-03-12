@@ -9,7 +9,7 @@ public class Sqlconnection {
         String url="jdbc:mysql://localhost:3306/sakila";
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            con= DriverManager.getConnection(url,"root","DartrixDDR4L");
+            con= DriverManager.getConnection(url,db_username,db_password);
         }
         catch(Exception e) {
             e.printStackTrace();
